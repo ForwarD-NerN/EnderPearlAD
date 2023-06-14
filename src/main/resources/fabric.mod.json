@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "pearlad",
+  "version": "${version}",
+
+  "name": "Ender Pearl AD",
+  "description": "Ender pearls no longer disappear on player death.",
+  "authors": [
+    "ForwarD NerN"
+  ],
+  "contact": {
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/pearlad/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.nern.PearlAD"
+    ]
+  },
+  "mixins": [
+    "pearlad.mixins.json"
+  ],
+
+  "depends": {
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
